@@ -1,0 +1,168 @@
+body {
+    background-image: grey;
+}
+div { background-color:burlywood;
+width:1000px;
+border:50px;
+    padding:25px;
+    margin:25px;}
+.jumbotron{
+  background-color:grey;
+  height:450px;
+  width:400px;
+}
+h5 {border: 1px solid 
+orange;
+margin: 10px;}
+div.gallery {
+    margin: 5px;
+    border: 1px solid rgb(233, 208, 68);
+    float: left;
+    width: 100px;
+    border: 1px solid orange;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+#rcorners1 {
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;  
+  }
+  
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+h4{text-decoration-color: red;
+
+}
+div { background-color:#ffffff;
+width:100%;
+border:20px;
+    padding:25px;
+    margin:25px;}
+.jumbotron{
+  background-color:#ffffff;
+  height:450px;
+  width:1100px;
+  padding: center;
+}
+h5 {border: 1px solid 
+orange;
+margin: 10px;}
+div.gallery {
+    margin: 3.5%;
+    border: 1px solid #ccc;
+    float: left;
+    width: 280px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 50%;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: left;
+}
+
+* {
+    box-sizing: border-box;
+}
+h4{text-decoration-color: red;
+
+}
+a {
+  text-decoration-color: black;
+}
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 10%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: #000000;
+}
+/* Container holding the image and the text */
+.container {
+    position: transparent;
+    text-align: center;
+    background-image: url(IMAGES/in.jpg);
+  }
+  /* Centered text */
+.centered {
+    position: transparent;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #rcorners1 {
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px;
+    width: 100px;
+    height: 90px;
+  }
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+.signup {
+    position: absolute;
+left: 85%;
+right: 8%;
+top: 32%;
+bottom: 20%;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 2px;
+}
+.login {
+position: absolute;
+left: 80.97%;
+right: 15.9%;
+top: 32.81%;
+bottom: 32.81%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+color: #000000;
+}
+h1 {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
+a {text-align: center;}
+.responsive {
+  width: 125%;
+  height: 200%;
+}
